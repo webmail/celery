@@ -15,7 +15,7 @@ on:
 
 jobs:
     testing-with:
-        runs-on: namespace-profile-default
+        runs-on: ubuntu-latest
         strategy:
             fail-fast: false
             matrix:
