@@ -15,7 +15,7 @@ on:
 
 jobs:
   testing-with:
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: buildjet-4vcpu-ubuntu-2204
     strategy:
       fail-fast: false
       matrix:
